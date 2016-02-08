@@ -1,0 +1,23 @@
+{
+  "name": "devall-js-test",
+  "version": "1.0.0",
+  "description": "Devall js test",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -t 3000 -c -u bdd"
+  },
+  "keywords": [
+    "js",
+    "test",
+    "devall"
+  ],
+  "author": "Loutchansky Oleg",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.1"
+  }
+}
