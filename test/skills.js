@@ -32,6 +32,7 @@ describe('Check your skills', () => {
       skills.postgresql +
       skills.redis +
       skills.sqllite +
+      skills.firebase +
       skills.elasticsearch;
 
     score.should.be.above(0);

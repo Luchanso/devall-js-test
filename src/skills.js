@@ -21,6 +21,7 @@ skills.neo4j          = false;
 skills.postgresql     = false;
 skills.redis          = false;
 skills.sqllite        = false;
+skills.firebase       = false;
 skills.elasticsearch  = false;
 
 // Front-end
