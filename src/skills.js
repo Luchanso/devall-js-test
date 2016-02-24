@@ -11,6 +11,8 @@ skills.nodeCluster    = false;
 skills.nodeCrypto     = false;
 skills.nodeHTTP       = false;
 skills.meteor         = false;
+skills.nodal          = false;
+skills.sails          = false;
 
 // database
 skills.mysql          = false;
