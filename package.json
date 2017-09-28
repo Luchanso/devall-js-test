@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -t 3000 -c -u bdd"
+    "test": "mocha -t 3000 -c -u bdd",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "js",
@@ -18,6 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "mocha": "^2.4.5",
-    "should": "^8.2.1"
-  }
+    "should": "^8.2.1",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
